@@ -1,0 +1,48 @@
+.formDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.form{
+    width: 75%;
+    padding-top: 2rem;
+}
+
+.Quesheading{
+    color: #c85876;
+}
+
+.modalListItemLabelQues {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #c85876;
+}
+
+.modalListItemQues {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+}
+
+.modalListItemInputFeild:focus{
+    background-color: white;
+}
+
+.modalListItemInputFeildQues{
+    margin-bottom: 1.8rem;
+}
+
+.buttonQues {
+    width: 95%;
+    background-color: #c85876;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 4px;
+}
+
+.buttonQues:hover,buttonQues:focus{
+    background-color: #8f1737 !important;
+    box-shadow: none;
+}

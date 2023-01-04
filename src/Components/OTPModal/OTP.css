@@ -1,0 +1,13 @@
+.OTPbuttonDiv{
+    display: flex ;
+    justify-content: center ;
+    margin: 1rem 0 ;
+}
+
+.OTPmodalListItem{
+    margin: 30px 0;
+}
+
+.OTPlastbuttonDiv{
+    margin-bottom: 50px;
+}

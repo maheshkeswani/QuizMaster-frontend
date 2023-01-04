@@ -1,0 +1,127 @@
+button{
+    all:unset;
+}
+
+.block__section__questionBox-answers-indiv-fakedisplay{
+    display: flex;
+    padding-top: 30px;
+    border-radius: 50px;
+    margin: 13px 0;
+    background-color: rgb(248, 247, 247);
+    padding-left: 17px;
+}
+
+.block__section__questionBox-answers-indiv-fakedisplay:hover{
+    background-color: #e29dac;
+    color: white;
+}
+
+.block__section__questionBox-answers-indiv-fakedisplay-active{
+    display: flex;
+    padding-top: 30px;
+    background-color: #e29dac;
+    border-radius: 50px;
+    margin: 13px 0;
+    padding-left: 17px;
+}
+
+.block__section__questionBox-answers-indiv-fakedisplay:before {
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 26%;
+    transform: translateY(-50%);
+    /* left: -78%; */
+    font-family: "Material Icons";
+    content: "radio_button_unchecked";
+    text-transform: lowercase;
+    font-size: 24px;
+    color: #a5a5a5;
+    padding: 5px;
+    
+}
+
+.block__section__questionBox-answers-indiv-fakedisplay-active:before {
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 26%;
+    transform: translateY(-50%);
+    /* left: -78%; */
+    font-family: "Material Icons";
+    content: "radio_button_checked";
+    text-transform: lowercase;
+    font-size: 24px;
+    color: #d56f85;
+    padding: 5px;
+}
+
+.block__section__questionBox-answers-indiv-fakedisplay:hover::before {
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 26%;
+    transform: translateY(-50%);
+    /* left: -78%; */
+    font-family: "Material Icons";
+    content: "radio_button_checked";
+    text-transform: lowercase;
+    font-size: 24px;
+    color: #d56f85;
+    padding: 5px;
+}
+
+.optionName{
+    position: relative;
+    top: -9px;
+    padding-left: 15px;
+}
+
+.QuizDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:150px;
+}
+
+.quizH1{
+    font-size: 22px;
+    color: #d56f85;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.quizH2{
+    font-size: 18px;
+    margin-top: 7px ;
+}
+
+.questionDiv{
+    width: 50vw;
+    text-align: center;
+    margin-bottom: 80px;
+    min-height: 60px;
+}
+
+.NavigationDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.NavigationButton{
+    margin: 0 15px;
+}
+
+.inActive{
+    margin-top: 40px;
+    border-radius: 40px;
+    padding: 11px 60px;
+    background-color: rgb(182, 179, 179);
+    font-weight: bold;
+    border: none;
+    font-size: 17px;
+    border: none;
+    color: #3a3a3a;
+    font-weight: 700;
+}
